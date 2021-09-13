@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#define FASTIO std::ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 using namespace std;
 
 bool arr[10000001] = { 0, };
@@ -51,9 +52,6 @@ void prime_fac(int number,vector<int> v) {
 
 	}
 
-
-	
-	
 	for (int i = 0; i < prime_factor.size(); i++) {
 		cout << prime_factor[i] << " " << prime_count[i] << endl;
 	}
@@ -64,6 +62,8 @@ void prime_fac(int number,vector<int> v) {
 
 
 int main() {
+	FASTIO;
+
 
 	int t;
 	cin >> t;
