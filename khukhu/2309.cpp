@@ -48,10 +48,12 @@ int main() {
 		}
 	}
 
-
+	int cnt = 0;
 	for (int i = 1; i < 10; i++) {
+		if (cnt == 8) break;
 		if (i != fake1 && i != fake2) {
 			cout << arr[i] << '\n';
+			cnt++;
 
 		}
 	}
