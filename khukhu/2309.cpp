@@ -3,7 +3,6 @@
 using namespace std;
 #define FASTIO std::ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
-
 int arr[10];
 int main() {
 	FASTIO;
